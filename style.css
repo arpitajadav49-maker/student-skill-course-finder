@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: #2563eb;
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+header h1 {
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Navigation */
+nav {
+    background: white;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+nav a {
+    color: #2563eb;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #1d4ed8;
+}
+
+/* Main sections */
+section {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 30px;
+}
+
+section h2 {
+    color: #1e40af;
+    margin-bottom: 15px;
+}
+
+/* Button */
+button {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+/* Skill box */
+select {
+    padding: 12px;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+/* Course cards */
+.course {
+    background: white;
+    padding: 22px;
+    margin: 18px 0;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.course h3 {
+    color: #2563eb;
+    margin-bottom: 8px;
+}
+
+/* Result */
+#result {
+    margin-top: 20px;
+    padding: 15px;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 28px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    section {
+        margin: 15px;
+        padding: 20px;
+    }
+}
